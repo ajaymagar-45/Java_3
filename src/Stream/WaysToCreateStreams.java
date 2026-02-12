@@ -26,6 +26,8 @@ public class WaysToCreateStreams {
         al.add("Sumit");
         al.add("pradeep");
         al.stream().forEach(System.out::println);
+
+
     }
 
 }

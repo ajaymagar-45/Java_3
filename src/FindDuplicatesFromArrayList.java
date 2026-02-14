@@ -23,5 +23,10 @@ public class FindDuplicatesFromArrayList {
         while (it1.hasNext())
             System.out.println(it1.next());
 
+
+
+
     }
+
 }
+

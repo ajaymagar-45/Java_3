@@ -1,6 +1,7 @@
 package StreamPractise;
 
 import java.util.List;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -15,6 +16,9 @@ public class FibonacciDemo {
 
     public static void main(String[] args) {
         System.out.println(fibonacci(10));
+        Pattern.compile(",")
+                .splitAsStream("apple,banana,orange")
+                .forEach(System.out::println);
     }
 
 

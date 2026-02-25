@@ -1,9 +1,6 @@
 package Practise;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashMapDemo {
     public static void main(String[] args) {
@@ -24,6 +21,9 @@ public class HashMapDemo {
         Collection<Object> value=map.values();
         System.out.println(value);
         //To get keys and values from map
+        int [] arr={1,2,4,5,6,7,8,9};
+        List<Integer>ll=new ArrayList<>();
+
 
     }
 }

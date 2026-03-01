@@ -1,6 +1,8 @@
 import java.util.stream.IntStream;
 
 public class MissingElementFromArray {
+
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 5};
         int n = arr.length + 1;
@@ -11,5 +13,6 @@ public class MissingElementFromArray {
         int missing = xor1 ^ xor2;
 
         System.out.println("Missing number: " + missing);
+
     }
 }
